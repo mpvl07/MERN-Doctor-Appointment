@@ -1,0 +1,43 @@
+/* UserDashboard.css */
+
+.container {
+    margin: auto;
+    width: 80%;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-details {
+    flex: 1;
+}
+
+.edit-profile {
+    margin-left: 20px;
+}
+
+.edit-profile button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-profile button:hover {
+    background-color: #0056b3;
+}
+
+.health-details,
+.appointments {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #007bff;
+}

@@ -1,0 +1,477 @@
+body {
+  font-family: 'Montserrat', 'sans-serif';
+}
+
+/* Additional global styles can be added here */
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+
+}
+
+.normal-text {
+  font-size: 1rem;
+}
+
+.card {
+  box-shadow: 0 0 2px gray;
+  border-radius: 0;
+}
+
+.authentication {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.authentication-form {
+  width: 400px;
+}
+
+.spinner-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Home */
+
+.navbar {
+  font-family: 'Montserrat', 'sans-serif';
+  
+  background-color: #007bff;
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  height: 60px;
+  /* Increase the height for a larger image */
+  border-radius: 100%;
+  margin-left: 10px;
+  /* Remove the border-radius */
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-right: 40px;
+}
+
+/* .nav-links li:last-child {
+  margin-right:0;
+} */
+.nav-links a {
+  color: #ffffff;
+  /* Change link color to black */
+  text-decoration: none;
+  /* Remove underline */
+  transition: color 0.3s;
+  /* Smooth color transition on hover */
+}
+
+.nav-links a:hover {
+  color:black;
+  /* Change color on hover */
+}
+.blue-line {
+  height: 50px;
+  background-color: #007bff;
+  margin-bottom: 20px;
+  /* Adjust as needed */
+}
+.blue-box {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.book-appointment {
+  padding: 10px 20px;
+  background-color:#007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 30px;
+  margin-right: 50px;
+
+}
+
+.home-main {
+  display:flex;
+  font-family: 'Montserrat', 'sans-serif';
+  padding: 50px;
+  /* background-image: linear-gradient(to bottom, #007bff, #0056b3); */
+  color:black;
+  /* Set text color to white */
+  height: 500px;
+
+  /* Make it a flex container */
+  align-items: center;
+  /* Center content vertically */
+  justify-content: center;
+  /* Center content horizontally */
+  text-align: center;
+  /* Center text inside */
+}
+
+.main-bts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-book {
+
+  border-color: white;
+  background-color: #007bff;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 5px;
+  margin-right: 15px;
+  width: 200px;
+
+}
+
+.main-contact {
+  width: 200px;
+  border-color: white;
+  background-color: #007bff;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 15px;
+
+}
+.doctor-image-container {
+  flex: 0 0 auto;
+  background-color: #007bff;
+  border-radius: 10%;
+}
+
+.doctor-imagee {
+  width: 400px;
+  /* Adjust size as needed */
+  border-radius: 10px;
+  /* To make the image rounded */
+}
+.home-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.main-content {
+  display: flex;
+  align-items: center;
+}
+
+.main-text {
+  margin-right: 50px;
+}
+
+.main-btns {
+  margin-top: 20px;
+}
+
+.doctor-image-container {
+  flex: 0 0 auto;
+}
+
+.doctor-image {
+  width: 300px;
+  /* Adjust size as needed */
+  border-radius: 10px;
+  /* To make the image rounded */
+}
+
+.how-it-works {
+  text-align: center;
+  font-family: 'Montserrat';
+  margin: 50px;
+}
+
+.topics {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.topic {
+  width: 30%;
+}
+
+.topic i {
+
+  width: 50px;
+  height: 50px;
+
+}
+
+.topic h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.topic p {
+  font-size: 16px;
+  color: #666;
+}
+
+.footer {
+  background-image: linear-gradient(to bottom, #007bff, #0056b3);
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-links {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-links a:hover {
+  color: #007bff;
+}
+
+.copyright {
+  font-size: 12px;
+  color: #ffffff;
+}
+
+
+/* #FindDoctor */
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin-top: 10px;
+}
+
+.search-input {
+  width: 60%;
+  padding: 15px;
+  font-size: 14px;
+  border: 2px solid #ccc;
+  border-radius: 10px 0 0 10px;
+  outline: none;
+}
+
+.search-button {
+
+  padding: 15px 20px;
+  font-size: 14px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+.doctor-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* Centers the boxes horizontally */
+}
+
+.doctor-box {
+  flex: 0 0 calc(25% - 20px);
+  /* Adjust the width of each box */
+  margin: 10px;
+  
+  border: 2px solid #ccc;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.doctor-image {
+  width: 100%;
+  /* Set the size of the image */
+  height: auto;
+  /* Set the size of the image */
+  border-radius: 10%;
+  /* Make the image round */
+  margin-bottom: 10px;
+}
+
+.doctor-name {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.doctor-specialization {
+  font-style: italic;
+  color: #666;
+}
+/* Additional styling as needed */
+
+
+
+
+
+
+
+
+/* Book appointment */
+.appointment-container {
+  max-width: 400px;
+  font-family: Arial, sans-serif;
+  margin: 10px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 3px;
+  box-shadow: 1px 2px 14px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 100px;
+}
+
+/* button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+} */
+
+
+/*userdashboard*/
+/* Header Card */
+/* Header Card */
+.header-cardd {
+  border-radius: 15px;
+  overflow: hidden;
+  margin-top: 20px;
+  background: linear-gradient(#007bff 40%, #ffffff 40%, #ffffff);
+}
+
+.wallpaper-cover {
+  height: 150px;
+  background-color: #007bff;
+}
+
+/* User Info Section */
+.user-infoo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #000000;
+  flex-wrap: wrap;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+
+.user-name-left {
+  color: #000;
+  margin: 0;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.details-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.left-details,
+.right-details {
+  width: 48%;
+}
+
+.left-details p,
+.right-details p {
+  margin: 15px 0;
+  font-size: 20px;
+}
+
+/* Buttons Container */
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+
+.edit-profile-btn,
+.medical-report-btn {
+  background-color: #ffffff;
+  border-color: #007bff;
+  color: #007bff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
